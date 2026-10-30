@@ -863,6 +863,226 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "E_Ink_Display:E_ink_display"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "U"
+				(at 1.27 4.826 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Waveshare_epaper"
+				(at -6.858 -11.684 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "E_ink_display_0_1"
+				(rectangle
+					(start -7.62 2.54)
+					(end 7.62 -10.16)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "E_ink_display_1_1"
+				(pin bidirectional line
+					(at 10.16 0 180)
+					(length 2.54)
+					(name "BUSY"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -10.16 0 0)
+					(length 2.54)
+					(name "RST"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 10.16 -2.54 180)
+					(length 2.54)
+					(name "DC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -10.16 -2.54 0)
+					(length 2.54)
+					(name "CS"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -10.16 -6.35 0)
+					(length 2.54)
+					(name "SPLCLK"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -10.16 -8.89 0)
+					(length 2.54)
+					(name "SPLDIN"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 5.08 -12.7 90)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 5.08 270)
+					(length 2.54)
+					(name "VCC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Jumper:SolderJumper_2_Open"
 			(pin_numbers
 				(hide yes)
@@ -3976,6 +4196,16 @@
 	)
 	(wire
 		(pts
+			(xy 165.1 152.4) (xy 177.8 152.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c0051a00-0019-457f-a174-ae1e21121455")
+	)
+	(wire
+		(pts
 			(xy 186.69 55.88) (xy 191.77 55.88)
 		)
 		(stroke
@@ -4126,6 +4356,16 @@
 	)
 	(wire
 		(pts
+			(xy 165.1 154.94) (xy 177.8 154.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ec0a6f0f-04de-457c-a7c6-6414b62d7327")
+	)
+	(wire
+		(pts
 			(xy 255.27 80.01) (xy 260.35 80.01)
 		)
 		(stroke
@@ -4173,6 +4413,16 @@
 			(justify left bottom)
 		)
 		(uuid "02f3ecd5-2dea-4d7b-8ec8-48bce9be0cd7")
+	)
+	(label "COPI"
+		(at 165.1 154.94 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "1a3e9816-0bb8-417f-996f-3a6834abbbea")
 	)
 	(label "LORA_RST"
 		(at 38.1 121.92 0)
@@ -4313,6 +4563,16 @@
 			(justify left bottom)
 		)
 		(uuid "ce7607ab-aad7-4495-a23f-02f8aecb9340")
+	)
+	(label "CLK"
+		(at 165.1 152.4 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "ec2d9d91-6beb-4d73-bd3a-a5c511489a43")
 	)
 	(label "COPI"
 		(at 186.69 55.88 0)
@@ -6633,6 +6893,106 @@
 			(project "DemoGit"
 				(path "/47592ec3-9c69-46c5-a8c2-f085c078fc65"
 					(reference "#PWR013")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "E_Ink_Display:E_ink_display")
+		(at 187.96 146.05 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "99ef3a44-a2e0-4631-a02c-b1e671f702e2")
+		(property "Reference" "U4"
+			(at 190.1033 138.43 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Waveshare_epaper"
+			(at 190.1033 140.97 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 187.96 146.05 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 187.96 146.05 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 187.96 146.05 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "7"
+			(uuid "f2d99fc1-b97a-4a58-b914-0298dd0aea32")
+		)
+		(pin "6"
+			(uuid "b430be1e-20dd-4ca8-887c-03601a35c433")
+		)
+		(pin "1"
+			(uuid "35e9ec13-bdaa-45d1-800e-fe49d9fb4e7c")
+		)
+		(pin "2"
+			(uuid "98086d6b-26a3-4950-b0aa-659ebcd6982b")
+		)
+		(pin "8"
+			(uuid "e35ec33a-8018-43f7-9c99-c08ea4da82b5")
+		)
+		(pin "4"
+			(uuid "3c66e5cf-b6bc-4e7c-bc45-00bb03deee5e")
+		)
+		(pin "3"
+			(uuid "4a896e02-0c51-4a70-905c-f59490370ee7")
+		)
+		(pin "5"
+			(uuid "2c0ceb59-5240-4985-b734-5fbdcc945267")
+		)
+		(instances
+			(project "DemoGit"
+				(path "/47592ec3-9c69-46c5-a8c2-f085c078fc65"
+					(reference "U4")
 					(unit 1)
 				)
 			)
