@@ -5463,7 +5463,7 @@
 				)
 			)
 		)
-		(property "Value" "10k"
+		(property "Value" "4.7k"
 			(at 256.54 99.06 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5540,6 +5540,17 @@
 			)
 		)
 		(property "Supplier Link" ""
+			(at 256.54 102.87 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Supplier Part Number" ""
 			(at 256.54 102.87 0)
 			(hide yes)
 			(show_name no)
